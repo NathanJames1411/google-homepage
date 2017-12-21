@@ -3,12 +3,73 @@ body {
   margin: 0;
 }
 
-p a {
-  text-decoration: none;
-  font-size: 14px;
+.topnav {
+  position: absolute;
+  top: 20px;
+  width: 100%;
 }
 
-img {
+.bottomnav {
+  position: absolute;
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  width: 100%;
+}
+
+.topnavleft a {
+  text-decoration: none;
+  font-size: 13px;
+  float: left;
+  margin-left: 2%;
+  font-family: arial,sans-serif;
+}
+
+.topnavright {
+  float: right;
+}
+
+.bottomnavright {
+  float: right;
+}
+
+.topnavright a {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: arial,sans-serif;
+  padding-left: 8px;
+  margin-right: 20px;
+}
+
+.topnavright img {
+  text-decoration: none;
+  padding-left: 8px;
+  margin-right: 20px;
+}
+
+.bottomnavleft a {
+  text-decoration: none;
+  font-size: 13px;
+  float: left;
+  margin-left: 2%;
+  font-family: arial,sans-serif;
+}
+
+.bottomnavright a {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: arial,sans-serif;
+  padding-left: 8px;
+  margin-right: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.logo {
     display: block;
     margin: 0 auto;
     height: auto;
@@ -18,102 +79,47 @@ img {
     margin-top: 200px;
 }
 
-.box {
-  display: block;
+.searchbox {
+  text-align: center;
   margin: 0 auto;
 }
 
 .textbox {
-  display: block;
-  margin: 0 auto;
-  height: auto;
-  width: auto;
-  padding: 14px 190px 14px 190px;
+  width: 500px;
   box-shadow: 2px 1.5px 1px 1.5px #cfd2d6;
   border-radius: 1px;
   border: 2px;
+  font-size: 18px;
 }
 
 .buttons {
+  margin-top: 20px;
   display: inline;
-  color: #efefef;
+  background-color: #f2f2f2
 }
 
 input, button, submit {
-  border:none;
   color: gray;
-  border: 1px solid #cfd2d6;
+  border:none;
   font-weight: bold;
   font-size: 14px;
+  padding: 10px;
 }
 
 #searchbuttons {
   text-align: center;
 }
 
-.about {
-  margin-left: 20px;
+.boxicon {
+  max-width: 16px;
+  max-height: 16px;
 }
 
-.store {
-  margin-left: 20px;
-}
-
-.gmail {
-  margin-left: 1050px;
-}
-
-.images {
-  margin-left: 20px;
-}
-
-.ads {
-  margin-left: 20px;
-}
-
-.business {
-  margin-left: 20px;
-}
-
-.privacy {
-  margin-left: 1050px;
-}
-
-.terms {
-  margin-left: 20px;
-}
-
-.settings {
-  margin-left: 20px;
-}
-
-#signin {
+.signin {
   color: white;
-  margin-left: 20px;
   background: #4387fd;
   border: none;
-}
-
-.bluebutton {
-  background: blue;
-}
-
-.header {
-  position: absolute;
-  top: 0;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  background-color: #f2f2f2;
-  border: 1px solid #e4e4e4;
-  margin: 0;
-  width: 100%;
-  padding: 0 29px;
-  line-height: 2px;
-}
-
-a:hover {
-  text-decoration: underline;
+  margin-right: 20px;
+  border-radius: 2px;
+  padding: 6px 12px 6px 12px;
 }

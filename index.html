@@ -5,57 +5,41 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="header">
-      <table>
-        <tr>
-          <td>
-            <p class="about"><a href="#">About</p>
-          </td>
-          <td>
-            <p class="store"><a href="#">Store</p>
-          </td>
-          <td>
-            <p class="gmail"><a href="#">Gmail</p>
-          </td>
-          <td>
-            <p class="images"><a href="#">Images</p>
-          </td>
-          <td>
-            <p id="signin"><input type="submit" name="bluebutton" value="Sign In"></p>
-          </td>
-        </tr>
-      </table>
+    <div class="topnav" id="mytopnav">
+      <div class="topnavleft">
+        <a class="about" href="#">About</a>
+        <a class="store" href="#">Store</a>
+      </div>
+      <div class="topnavright">
+        <a class="gmail" href="#">Gmail</a>
+        <a class="images" href="#">Images</a>
+        <img class="boxicon" src="black-boxes.png">
+        <button class="signin" href="#" name="signinbutton">Sign In</button>
+      </div>
     </div>
-      <img src="google-logo.png">
-    <form action="#" method="GET">
-      <div>
-        <p><input class="textbox"></p>
+    <div class="center" id="mycenter">
+      <img class="logo" src="google-logo.png">
+      <form action="#" method="GET">
+        <div class="searchbox">
+          <p><input class="textbox"></p>
+          <!--<img class="voice" src="google-voice-icon.png">-->
+        </div>
+        <div id="searchbuttons">
+          <button class="buttons" name"search">Google Search</button>
+          <button class="buttons" name"lucky">I'm Feeling Lucky</button>
+        </div>
+      </form>
+    </div>
+    <div class="bottomnav" id="mybottomnav">
+      <div class="bottomnavleft">
+        <a class="advertising" href="#">Advertising</a>
+        <a class="business" href="#">Business</a>
       </div>
-      <div id="searchbuttons">
-        <p class="buttons"><input type="submit" value="Google Search"></p>
-        <p class="buttons"><input type="submit" value="I'm Feeling Lucky"></p>
+      <div class="bottomnavright">
+        <a class="privacy" href="#">Privacy</a>
+        <a class="terms" href="#">Terms</a>
+        <a class="settings" href="#">Settings</a>
       </div>
-    </form>
-    <div class="footer">
-      <table>
-        <tr>
-          <td>
-            <p class="ads"><a href="#">Advertising</p>
-          </td>
-          <td>
-            <p class="business"><a href="#">Business</p>
-          </td>
-          <td>
-            <p class="privacy"><a href="#">Privacy</p>
-          </td>
-          <td>
-            <p class="terms"><a href="#">Terms</p>
-          </td>
-          <td>
-            <p class="settings"><a href="#">Settings</p>
-          </td>
-        </tr>
-      </table>
     </div>
   </body>
 </html>
